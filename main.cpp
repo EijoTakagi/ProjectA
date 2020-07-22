@@ -1,5 +1,5 @@
 #include<stdio.h>
 int main() {
-    printf("ProjectA\n");
+    printf("ProjectB\n");
     return 0;
 }
