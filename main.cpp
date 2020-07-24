@@ -1,7 +1,10 @@
 #include<stdio.h>
+void func() {
+    printf("ProjectB\n");
+}
 int main() {
     printf("ProjectA\n");
     printf("test\n");
-    printf("ProjectB\n");
+    func();
     return 0;
 }
