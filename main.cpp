@@ -1,12 +1,10 @@
 #include<stdio.h>
-void projectA() {
-    printf("ProjectA\n");
-}
-void projectB() {
+void func() {
     printf("ProjectB\n");
 }
 int main() {
-    projectA();
-    projectB();
+    printf("ProjectA\n");
+    printf("test\n");
+    func();
     return 0;
 }
